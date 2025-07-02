@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #fff;
+      color: #333;
+      text-align: center;
+    }
+
+    .section-title {
+      margin-top: 50px;
+      color: #999;
+      font-size: 16px;
+    }
+
+    .section-title::after {
+      content: '❧';
+      display: block;
+      font-size: 20px;
+      margin-top: 10px;
+      color: #e94c3d;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 300;
+    }
+
+    h1 span {
+      color: #e94c3d;
+    }
+
+    .blog-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 30px;
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .left-large {
+      flex: 1 1 60%;
+      max-width: 700px;
+    }
+
+    .right-small {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      flex: 1 1 35%;
+    }
+
+    .blog-post {
+      text-align: left;
+      border: 1px solid #f0f0f0;
+      overflow: hidden;
+      transition: transform 0.4s ease;
+    }
+
+    .blog-post:hover img {
+      transform: scale(1.05);
+    }
+
+    .image-container {
+      overflow: hidden;
+      
+    }
+
+    .left-large .image-container img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    
+    .right-small .image-container img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .blog-content {
+      padding: 15px 20px;
+    }
+
+    .blog-content h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+
+    .blog-content p {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .read-more {
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .read-green {
+      color: #88c000;
+    }
+
+    .read-red {
+      color: #e94c3d;
+    }
+
+
+
+
+
+
+
+    .ortga{
+      border: 0;
+      background-color: rgb(0, 255, 0);
+      color: white;
+      width: 7vh;
+      height: 7vh;
+      font-size: 9vh;
+      position: absolute;
+      bottom: 5vh;
+      right: 5vh;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section-title">top quality recipes</div>
+  <h1>Read <span>MegaOne’s</span> Blogs</h1>
+
+  <div class="blog-wrapper">
+    <!-- Katta blog (chap tomonda) -->
+    <div class="left-large">
+      <div class="blog-post">
+        <div class="image-container">
+          <img src="https://megaone.acrothemes.com/food/img/blog-img1.jpg" alt="Office Food">
+        </div>
+        <div class="blog-content">
+          <h3>Home made food for your office</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
+          <a href="#" class="read-more read-green">READ MORE »</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kichik bloglar (o'ng tomonda) -->
+    <div class="right-small">
+      <div class="blog-post">
+        <div class="image-container">
+          <img src="https://megaone.acrothemes.com/food/img/blog-img2.jpg" alt="Lunch Dish">
+        </div>
+        <div class="blog-content">
+          <h3>A Lunch Full of Spices & Taste</h3>
+          <a href="#" class="read-more read-green">READ MORE »</a>
+        </div>
+      </div>
+
+      <div class="blog-post">
+        <div class="image-container">
+          <img src="https://megaone.acrothemes.com/food/img/blog-img3.jpg" alt="Midnight Meal">
+        </div>
+        <div class="blog-content">
+          <h3>Midnight Deals are Perfect for yourself</h3>
+          <a href="#" class="read-more read-red">READ MORE »</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <a href="/NO'L/index.html"><button class="ortga">^</button></a>
+
+</body>
+</html>

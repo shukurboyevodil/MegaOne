@@ -1,0 +1,93 @@
+
+.c_img1{
+    margin-top: 15vh;
+    text-align: center;
+}
+.img1{
+    width: 13vh;
+}
+.c_p1{
+    text-align: center;
+    font-size: 4vh;
+}
+.c_h1{
+    margin-top: -2vh;
+    text-align: center;
+}
+.h1{
+    color: rgb(87, 86, 86);
+    font-size: 7vh;
+}
+.red{
+    color: red;
+}
+.img5{
+    width: 60vh;
+    margin-top: 7vh;
+    position: relative;
+    top: 120vh;
+    left: -20vh;
+}
+.container{
+    position: relative;
+    top: -75vh;
+    left: 120vh;
+}
+.img1 , .img2 , .img3{
+    width: 5vh;
+    position: relative;
+    top: 10vh;
+    left: -7vh;
+}
+.pp1 , .pp2 , .pp3{
+    font-size: 2vh;
+}
+.hh1 , .hh2 , .hh3{
+    font-size: 3vh;
+}
+.c_hh1 , .c_hh2 , .c_hh3{
+    margin-top: -2vh;
+}
+.c_img4{
+    text-align: center;
+    position: relative;
+    bottom: 140vh;
+}
+.img4{
+    width: 10vh;
+    position: relative;
+    top: -10vh;
+}
+.shadow{
+    width: 60vh;
+    height: 20vh;
+    background-color: rgb(255, 60, 0);
+    position: relative;
+    top: 143vh;
+    left: 47vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ortga{
+      border: 0;
+      background-color: rgb(0, 255, 0);
+      color: white;
+      width: 7vh;
+      height: 7vh;
+      font-size: 9vh;
+      position: absolute;
+      bottom: 5vh;
+      right: 5vh;
+}
